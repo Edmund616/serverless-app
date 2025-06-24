@@ -1,0 +1,23 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Terraform plan files
+*.tfplan
+
+# Terraform variable overrides
+terraform.tfvars
+*.tfvars
+
+# Zip files and Lambda build artifacts
+*.zip
+
+# Python cache (if using Python for Lambda)
+__pycache__/
+*.pyc
+
+# OS & editor cruft
+.DS_Store
+.idea/
+.vscode/
